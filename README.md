@@ -74,14 +74,14 @@ Se incluyeron los archivos generados en el punto 1 y la nube de palabras del pun
 
 A partir del exhaustivo análisis de los datos y observando con detenimiento el dashboard interactivo podemos concluir:
 
-+ Durante el 2020 se triplicaron las reseñas.
-+ Las instituciones con mejores puntajes son mayoritariamente Universidades con prestigio académico.
-+ Empresas como Google e IBM también poseen los mejores puntajes. 
-+ Los temas que más ingresos generan son Computer Science y Web Development en primer lugar y Business Management.
-+ Si nos centramos en los cursos de mayor precio Data Analysis y Statistics ocupa el primer lugar como generador de ingresos.
-+ La oferta de cursos se concentra en los niveles introductorios, por lo que puede ser una oportunidad ofrecer cursos de niveles avanzados. 
-+ La duración de los cursos se concentra entre 4 y 10 semanas.
-+ Los suscriptores se interesan menos en los cursos de Música, a pesar de tener una mayor oferta.
++ Durante el 2020 se ***triplicaron*** las reseñas.
++ Las instituciones con mejores puntajes son mayoritariamente ***Universidades*** con prestigio académico.
++ Empresas como ***Google*** e ***IBM*** también poseen los mejores puntajes. 
++ Los temas que más ingresos generan son ***Computer Science*** y ***Web Development***.
++ Si nos centramos en los cursos de mayor precio ***Data Analysis y Statistics*** ocupa el primer lugar como generador de ingresos.
++ La oferta de cursos es mayor en los ***niveles introductorios***, por lo que puede ser una oportunidad ofrecer cursos de niveles avanzados. 
++ La duración de los cursos se concentra entre ***4 y 10 semanas***.
++ Los suscriptores se interesan menos en los cursos de ***Música***, a pesar de tener una mayor oferta.
 
 
 </div>
