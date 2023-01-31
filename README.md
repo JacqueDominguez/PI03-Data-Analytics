@@ -40,7 +40,7 @@ Para realizar este trabajo se utlizaron cuatro archivos .csv ubicados en la carp
 
 ## Pasos a seguir:
                                                                                                                                      
-![Flujo](/_src/assets/flujo.PNG)                                                                                                                                     
+![Flujo](https://github.com/JacqueDominguez/PI03-Data-Analytics/blob/main/src/assets/flujo.jpg)                                                                                                                                     
                                                                                                                                      
                                                                                                                                      
 ### 1- Análisis exploratorio de datos (EDA) y preprocesamiento
