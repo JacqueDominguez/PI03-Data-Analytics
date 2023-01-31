@@ -35,63 +35,36 @@ Para realizar este trabajo se utlizaron cuatro archivos .csv ubicados en la carp
 <div>
 
 <img src="https://internetpasoapaso.com/wp-content/uploads/Archivo-extension-CSV.jpg?resize=600%2C720&quality=80&ssl=1" width="100px">
-<img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/CHKO7CX4ZBFNBM765KEEGTBHJ4.jpg" width="200px">
 
 </div>
 
 ## Pasos a seguir:
+                                                                                                                                     
+### 1- Análisis exploratorio de datos (EDA) y Preprocesamiento
 
-### 1- Extraccion y Análisis exploratorio de datos (EDA) en el dataset de Train:
-
-Para ello utilicé Python , más especificamente las librerias pandas y numpy para el análisis de los datos y matplotlib y seaborn para las representaciones gráficas (podras encontrar todo el código dentro del notebook [EDA.ipynb](/EDA.ipynb).
+Para ello utilicé Python , más especificamente las librerias pandas y numpy para unificar los datasets de Coursera y realizar el análisis de los datos (podras encontrar todo el código dentro de éste notebook [EDA.ipynb](/EDA.ipynb).
 
 Algunos de los hallazgos más destacados fueron: 
 
-+ El dataset posee 346479 filas y 22 columnas, solo posee nulos en 4 columnas y solo en una (parking_options) los nulos superan el 25% de los datos.
-+ Errores en los datos de latitud y longitud , los valores fuera del rango esperado son menores al 1% (no significativos)
-+ Filas duplicadas: existen y representan mas del 20% del dataset por lo que consideramos que se deben eliminar. 
-+ Tipo de dato incorrecto: la columna baths tiene un tipo de dato float que debe corregirse a entero. 
-+ Valores Atipicos o Outliers: analizando las columnas bath y beds vemos que hay valores extraños (>10) .Para el caso de Price y Sqfeet no solo hay grandes outliers sino también valores iguales a cero. 
-+ Variables Categóricas: solo hicimos hincapié en su composición. 
++ El dataset de Corusera posee 1.454.711 filas y 8 columnas, solo posee 140 datos nulos y una única variable numérica (rating).
++ El dataset de EDX posee 975 filas y 16 columnas, posee 777 datos nulos y todas sus variables son tipo objeto.
++ El dataset de Udemy posee 3678 filas y 12 columnas, no posee datos nulos y la mitad del dataset es de datos numéricos.
++ Completé los datos faltantes con 'Sin_Dato' o 0  segun corresponda. 
++ Analicé los valores únicos que asume cada variable. 
++ Transformé los tipos de datos de las columnas correspondientes. 
++ Apliqué la fuunción split para extraer de las columnas tipo object los datos numéricos(duración y precio) 
++ Los duplicados eran en Coursera: 934.764, en EDX: 1, en Udemy: 6, pueden afectar el análisis por lo que se eliminan.
++ Eliminé las columnas que no son significativas para el análisis. 
++ Generé 3 archivos que me servirán de base para realizar el dashboard. 
 
-### 2- Preprocesamiento y transformación del dataset de Train:
+### 2- 
 
-Para ello utilicé Python , más especificamente las librerias pandas y numpy y sklearn para la transformación de los datos y matplotlib y seaborn para las representaciones gráficas (podrás encontrar todo el código dentro del notebook [PreprocesamientoTrain.ipynb](/PreprocesamientoTrain.ipynb).
 
-Este es un resumen del paso a paso:
 
-+ Completar valores nulos de laundry_options y parking_options con la moda por tipo de propiedad. 
-+ Completar los valores de latitud y longitud . 
-+ Realizar las correcciones de tipo de dato y valores atípicos declaradas en el punto anterior. 
-+ Crear la columna que representa la variable objetivo a partir de la columna precio. 
-+ Eliminar las columnas que no utilizaremos en el modelo.
-
-### 3- Definir el modelo y entrenarlo
-
-Teniendo en cuenta que nuestra variable objetivo es categórica decidimos ,en primer lugar, utilizar un modelo de aprendizaje supervisado , es decir le mostramos al modelo el resultado que esperamos de la variable objetivo, para ello utilizamos Arbol de Decisión , por ser uno de los mas simples y fáciles de entender, todo lo desarrollamos en python con ayuda de la libreria scikit-learn. 
-
-El desarrollo del modelo podra encontrarlo aquí [Modelo01.py](/Modelo01.py) .
-
-Este es un resumen del paso a paso:
-
-+ Extraer los datos del dataset.
-+ Separar los datos en train y test.
-+ Entrenar el modelo. 
-+ Realizar la predicción.
-+ Evaluar el modelo , en este caso tenemos un ***Accuracy:  0.9088 y un Recall:  0.883***
-
-</div>
-
+### 3- 
 ## 4-Transformación del Test. 
 
-Para ello utilicé Python , más especificamente las librerias pandas y numpy y sklearn para la transformación de los datos y matplotlib y seaborn para las representaciones gráficas (podras encontrar todo el código dentro del notebook [PreprocesamientoTest.ipynb](/PreprocesamientoTest.ipynb). ***Aclaración: debe tener la misma cantidad de columnas que el dataset train***
 
-Este es un resumen del paso a paso:
-
-+ Completar valores nulos de laundry_options y parking_options con la moda por tipo de propiedad. 
-+ Completar los valores de latitud y longitud . 
-+ Eliminar las columnas que no utilizaremos en el modelo.
-+ Agregar las columnas que le faltan. 
 
 </div>
 
