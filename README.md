@@ -40,9 +40,12 @@ Para realizar este trabajo se utlizaron cuatro archivos .csv ubicados en la carp
 
 ## Pasos a seguir:
                                                                                                                                      
-### 1- Análisis exploratorio de datos (EDA) y Preprocesamiento
+![Flujo](/_src/assets/flujo.PNG)                                                                                                                                     
+                                                                                                                                     
+                                                                                                                                     
+### 1- Análisis exploratorio de datos (EDA) y preprocesamiento
 
-Para ello utilicé Python , más especificamente las librerias pandas y numpy para unificar los datasets de Coursera y realizar el análisis de los datos (podras encontrar todo el código dentro de éste notebook [EDA.ipynb](/EDA.ipynb).
+Para ello utilicé Python , más especificamente las librerias pandas y numpy para unificar los datasets de Coursera y realizar el análisis de los datos , podrás encontrar todo el código dentro de éste notebook [EDA.ipynb](/EDA.ipynb).
 
 Algunos de los hallazgos más destacados fueron: 
 
@@ -57,49 +60,34 @@ Algunos de los hallazgos más destacados fueron:
 + Eliminé las columnas que no son significativas para el análisis. 
 + Generé 3 archivos que me servirán de base para realizar el dashboard. 
 
-### 2- 
+### 2- WordCloud : realización de una nube de palabras
 
+Para ello utilicé Python , más especificamente las librerias pandas y numpy para unificar los titulos en un único dataframe y realizar limpieza de palabras con la función stopwords que elimina palabras redundantes  y poder convertirlo en una figura mediante la librería matplotlib (podras encontrar todo el código dentro de éste notebook [nubedepalabras.ipynb](/nubedepalabras.ipynb).
 
-
-### 3- 
-## 4-Transformación del Test. 
-
-
-
-</div>
-
-## 4- Predecir los valores del dataset de testeo. 
-
-Corremos nuestro modelo en el dataset [df_test_final.py](/df_test_final.py).
-
-El desarrollo del modelo podra encontrarlo aquí [ModeloTest.py](/ModeloTest.py) .
-
-Este es un resumen del paso a paso:
-
-+ Extraer los datos de ambos dataset.
-+ Separar los datos en entrenamiento y testeo.
-+ Entrenar el modelo. 
-+ Enviar la [prediccion](/JacqueDominguez.csv) para su evaluación.
-+ Resultados Obtenidos : ***Accuracy:  0.928 y un Recall:  0.922***
-
+### 3- Dashboard con PowerBI 
+ Se incluyeron los archivos generados en el punto 1 y la nube de palabras del punto 2 en un dashboard interactivo que funciona al mismo tiempo como soporte visual de la presentación del análisis , podrás descargarlo de este mismo repositorio con el nombre de [Informe.pbix](/Informe.pbix).                                                                              
+     
 </div>
 
 ## CONCLUSIONES 
 
-A partir del exhaustivo análisis de los datos y observando esta [imagen](https://drive.google.com/file/d/1sXDBy_M6Krmea51ccPdIxXrCrLK8a3WD/view?usp=share_link) podemos concluir:
+A partir del exhaustivo análisis de los datos y observando con detenimiento el dashboard interactivo podemos concluir:
 
-+ Que la variable más imortante para definir el precio en el mercado inmobiliario analizado es el tamaño de la propiedad. 
-+ Que la segunda variable de más importancia es la ubicación. 
-+ Recomendación: Si se encuentra ante la decisión de invertir en una proiedad esos dos atributos deben ser los de mayor peso en su análisis comparativo. 
++ Durante el 2020 se triplicaron las reseñas.
++ Las Instituciones con mejores puntajes son mayoritariamente Universidades con prestigio académico.
++ Empresas como Google e IBM también poseen los mejores puntajes. 
++ Los temas que más ingresos generan son Computer Science y Web Development en primer lugar y Business Management.
++ Si nos centramos en los cursos de mayor precio Data Analysis y Statistics ocupa el primer lugar como generador de ingresos.
++ La oferta de cursos se concentra en los niveles introductorios, por lo que puede ser una oportunidad ofrecer cursos de niveles avanzados. 
++ La duración de los cursos se concentra entre 4 y 10 semanas.
++ Los suscriptores se interesan menos en los cursos de Música, a pesar de tener una mayor oferta.
+
 
 </div>
 
 ## Puntos de mejora
 Los puntos a mejorar  de este proyecto son :
-+ Realizar un modelo de aprendizaje no supervisado.
-+ Implementar un analisis de PCA para reducir la cantidad de variables.
-+ Avanzar hacia un modelo de aprendizaje supervisado mas complejo.
-+ Implementar piplines.
++ Incliur información de datasets complementarios.
 
 </div>
 
@@ -110,7 +98,7 @@ Los puntos a mejorar  de este proyecto son :
 * [Pandas](https://pandas.pydata.org/)
 * [Scikit-learn.](https://scikit-learn.org/stable/)
 * [Matplotlib](https://matplotlib.org/stable/index.html)
-* [Seaborn](https://seaborn.pydata.org//)
+* [WordCloud](https://pypi.org/project/wordcloud/))
 * [Colab](https://colab.research.google.com/?hl=es)
 
 </div>
