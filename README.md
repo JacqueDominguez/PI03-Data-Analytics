@@ -65,7 +65,8 @@ Algunos de los hallazgos más destacados fueron:
 Para ello utilicé Python , más especificamente las librerias pandas y numpy para unificar los titulos en un único dataframe y nltk realizar limpieza de palabras con la función stopwords que elimina palabras insignificantes. Para poder convertirlo en una figura usé la librería matplotlib (podras encontrar todo el código dentro de éste notebook [nubedepalabras](/nubedepalabras.ipynb).
 
 ### 3- Dashboard con PowerBI 
- Se incluyeron los archivos generados en el punto 1 y la nube de palabras del punto 2 en un dashboard interactivo que funciona al mismo tiempo como soporte visual de la presentación del análisis , podrás descargarlo de este mismo repositorio con el nombre de [Informe](/Informe.pbix).                                                                              
+ 
+Se incluyeron los archivos generados en el punto 1 y la nube de palabras del punto 2 en un dashboard interactivo que funciona al mismo tiempo como soporte visual de la presentación del análisis , podrás descargarlo de esta carpeta de Google Drive con el nombre de [Informe](https://drive.google.com/drive/folders/15X7M8hhcVMkZF_9uFEfB7u-nPBA5lYjY?usp=share_link).                                                                              
      
 </div>
 
