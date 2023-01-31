@@ -109,5 +109,6 @@ Los puntos a mejorar  de este proyecto son :
 
 + Las clases de los profes Cristian Castro y Juanse Parra del Módulo 5 de la carrera de Data Science de Henry.
 + https://github.com/afernandez119/wordcloud/blob/main/Wordcloud_Medium.ipynb
-+ https://www.youtube.com/watch?app=desktop&v=6PtsGT0tBdg                                                                                                                                     
++ https://www.youtube.com/watch?app=desktop&v=6PtsGT0tBdg
++ https://www.youtube.com/watch?v=sjrlIAQnD8M                                                                                                                                     
                                                                                                                                      
