@@ -45,7 +45,7 @@ Para realizar este trabajo se utlizaron cuatro archivos .csv ubicados en la carp
                                                                                                                                      
 ### 1- Análisis exploratorio de datos (EDA) y preprocesamiento
 
-Para ello utilicé Python , más especificamente las librerias pandas y numpy para unificar los datasets de Coursera y realizar el análisis de los datos , podrás encontrar todo el código dentro de éste notebook [EDA.ipynb](/EDA.ipynb).
+Para ello utilicé Python , más especificamente las librerias pandas y numpy para unificar los datasets de Coursera y realizar el análisis de los datos , podrás encontrar todo el código dentro de éste notebook [EDA](/EDA.ipynb).
 
 Algunos de los hallazgos más destacados fueron: 
 
@@ -62,10 +62,10 @@ Algunos de los hallazgos más destacados fueron:
 
 ### 2- WordCloud : realización de una nube de palabras
 
-Para ello utilicé Python , más especificamente las librerias pandas y numpy para unificar los titulos en un único dataframe y realizar limpieza de palabras con la función stopwords que elimina palabras redundantes  y poder convertirlo en una figura mediante la librería matplotlib (podras encontrar todo el código dentro de éste notebook [nubedepalabras.ipynb](/nubedepalabras.ipynb).
+Para ello utilicé Python , más especificamente las librerias pandas y numpy para unificar los titulos en un único dataframe y nltk realizar limpieza de palabras con la función stopwords que elimina palabras insignificantes. Para poder convertirlo en una figura usé la librería matplotlib (podras encontrar todo el código dentro de éste notebook [nubedepalabras](/nubedepalabras.ipynb).
 
 ### 3- Dashboard con PowerBI 
- Se incluyeron los archivos generados en el punto 1 y la nube de palabras del punto 2 en un dashboard interactivo que funciona al mismo tiempo como soporte visual de la presentación del análisis , podrás descargarlo de este mismo repositorio con el nombre de [Informe.pbix](/Informe.pbix).                                                                              
+ Se incluyeron los archivos generados en el punto 1 y la nube de palabras del punto 2 en un dashboard interactivo que funciona al mismo tiempo como soporte visual de la presentación del análisis , podrás descargarlo de este mismo repositorio con el nombre de [Informe](/Informe.pbix).                                                                              
      
 </div>
 
@@ -74,7 +74,7 @@ Para ello utilicé Python , más especificamente las librerias pandas y numpy pa
 A partir del exhaustivo análisis de los datos y observando con detenimiento el dashboard interactivo podemos concluir:
 
 + Durante el 2020 se triplicaron las reseñas.
-+ Las Instituciones con mejores puntajes son mayoritariamente Universidades con prestigio académico.
++ Las instituciones con mejores puntajes son mayoritariamente Universidades con prestigio académico.
 + Empresas como Google e IBM también poseen los mejores puntajes. 
 + Los temas que más ingresos generan son Computer Science y Web Development en primer lugar y Business Management.
 + Si nos centramos en los cursos de mayor precio Data Analysis y Statistics ocupa el primer lugar como generador de ingresos.
@@ -86,7 +86,9 @@ A partir del exhaustivo análisis de los datos y observando con detenimiento el 
 </div>
 
 ## Puntos de mejora
+                                                                                                                                     
 Los puntos a mejorar  de este proyecto son :
+                                                                                                                                     
 + Incliur información de datasets complementarios.
 
 </div>
@@ -96,15 +98,16 @@ Los puntos a mejorar  de este proyecto son :
 
 * [Python](https://www.python.org/)
 * [Pandas](https://pandas.pydata.org/)
-* [Scikit-learn.](https://scikit-learn.org/stable/)
+* [PowerBI](https://powerbi.microsoft.com/es-es/)
 * [Matplotlib](https://matplotlib.org/stable/index.html)
 * [WordCloud](https://pypi.org/project/wordcloud/))
-* [Colab](https://colab.research.google.com/?hl=es)
+* [NLTK](https://www.nltk.org/))
 
 </div>
 
 ## Para realizar este proyecto las siguientes fuentes de información fueron de gran ayuda: 
 
-+ Los cuadernos del Módulo 6 de la carrera de Data Science de Henry.
-+ Las clases de los profes Pablo Romero y Juanse Parra del Módulo 6 de la carrera de Data Science de Henry.
-+ https://deepnote.com/@mazzaroli/Analisis-exploratorio-de-datos-caba7762-e435-481e-9060-523263a820b1
++ Las clases de los profes Cristian Castro y Juanse Parra del Módulo 5 de la carrera de Data Science de Henry.
++ https://github.com/afernandez119/wordcloud/blob/main/Wordcloud_Medium.ipynb
++ https://www.youtube.com/watch?app=desktop&v=6PtsGT0tBdg                                                                                                                                     
+                                                                                                                                     
