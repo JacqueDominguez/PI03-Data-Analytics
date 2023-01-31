@@ -2,10 +2,10 @@
 </div>
 Bienvenido! En esta oportunidad vamos a analizar 3 datasets de empresas importantes del mercado de MOOCs para generar una recomendación al cliente que desea sumarse al negocio. 
 <div>
-<img src="https://thumbs.dreamstime.com/z/mooc-masivo-curso-online-abierto-aprendizaje-en-l%C3%ADnea-vectores-219370657.jpg?resize=1500%2C720&quality=80&ssl=1" width="250px">
+
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Coursera-Logo_600x600.svg/1200px-Coursera-Logo_600x600.svg.png" resize=1000%2C720&quality=80&ssl=1" width="130px">
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiFL0FeLWJE_qznLD0gBH2eyM8G5dYzdD_mRUvfggn14qvDUBsakyNxT5jAKeQdGF56P0&usqp=CAU" resize=1000%2C720&quality=80&ssl=1" width="200px">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6pnP7ogI1KRCFoUL93oXbQGOabDnIkhIxZ2lsGzdxdJ2G88dSYh8ja7gJw4j9Uhwm-Cs&usqp=CAU" resize=1000%2C720&quality=80&ssl=1" width="200px">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6pnP7ogI1KRCFoUL93oXbQGOabDnIkhIxZ2lsGzdxdJ2G88dSYh8ja7gJw4j9Uhwm-Cs&usqp=CAU" resize=1200%2C720&quality=80&ssl=1" width="250px">
 
 
 
@@ -14,7 +14,7 @@ Bienvenido! En esta oportunidad vamos a analizar 3 datasets de empresas importan
 ## Pero..¿Qué es MOOC?
 
 MOOC es el acrónimo de ***Massive Open Online Course***, que puede traducirse al español como curso en línea masivo y abierto. Se trata de una modalidad de cursos on line con dos características principales la masividad y el acceso a los contenidos y a la realización de las actividades debe ser gratuito , aunque los servicios de consulta y certificados pueden ser pagos.
-
+<img src="https://thumbs.dreamstime.com/z/mooc-masivo-curso-online-abierto-aprendizaje-en-l%C3%ADnea-vectores-219370657.jpg?resize=1500%2C720&quality=80&ssl=1" width="250px">
 </div>
 
 ## Objetivos del proyecto
