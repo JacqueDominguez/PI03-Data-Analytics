@@ -2,9 +2,9 @@
 </div>
 Bienvenido! En esta oportunidad vamos a analizar 3 datasets de empresas importantes del mercado de MOOCs para generar una recomendación al cliente que desea sumarse al negocio. 
 <div>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Coursera-Logo_600x600.svg/1200px-Coursera-Logo_600x600.svg.png" resize=1000%2C720&quality=80&ssl=1" width="120px">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiFL0FeLWJE_qznLD0gBH2eyM8G5dYzdD_mRUvfggn14qvDUBsakyNxT5jAKeQdGF56P0&usqp=CAU" resize=1000%2C720&quality=80&ssl=1" width="200px">
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6pnP7ogI1KRCFoUL93oXbQGOabDnIkhIxZ2lsGzdxdJ2G88dSYh8ja7gJw4j9Uhwm-Cs&usqp=CAU" resize=1200%2C720&quality=80&ssl=1" width="250px">
+<img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera.s3.amazonaws.com/media/coursera-rebrand-logo-square.png?auto=format%2Ccompress&dpr=1"resize=100%2C720&quality=80&ssl=1" width="100px">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiFL0FeLWJE_qznLD0gBH2eyM8G5dYzdD_mRUvfggn14qvDUBsakyNxT5jAKeQdGF56P0&usqp=CAU" resize=100%2C720&quality=80&ssl=1" width="170px">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6pnP7ogI1KRCFoUL93oXbQGOabDnIkhIxZ2lsGzdxdJ2G88dSYh8ja7gJw4j9Uhwm-Cs&usqp=CAU" resize=1000%2C720&quality=80&ssl=1" width="250px">
 
 
 
@@ -30,7 +30,7 @@ MOOC es el acrónimo de ***Massive Open Online Course***, que puede traducirse a
 
 ## Fuente de datos
 
-Para realizar este trabajo se utlizaron cuatro archivos .csv ubicados en la carpeta [Datasets](/Datasets).
+Para realizar este trabajo se utlizaron cuatro archivos .csv ubicados en la carpeta [Datasets](/Datasets) o en la carpeta de de Google Drive con el nombre de [Coursera_reviews](https://drive.google.com/drive/folders/15X7M8hhcVMkZF_9uFEfB7u-nPBA5lYjY?usp=share_link) .
 
 <div>
 
@@ -74,20 +74,18 @@ Se incluyeron los archivos generados en el punto 1 y la nube de palabras del pun
 
 A partir del exhaustivo análisis de los datos y observando con detenimiento el dashboard interactivo podemos concluir:
 
-+ Durante el 2020 se ***triplicaron*** las reseñas.
-+ Las instituciones con mejores puntajes son mayoritariamente ***Universidades*** con prestigio académico.
-+ Empresas como ***Google*** e ***IBM*** también poseen los mejores puntajes. 
-+ Los temas que más ingresos generan son ***Computer Science*** y ***Web Development***.
-+ Si nos centramos en los cursos de mayor precio ***Data Analysis y Statistics*** ocupa el primer lugar como generador de ingresos.
-+ La oferta de cursos es mayor en los ***niveles introductorios***, por lo que puede ser una oportunidad ofrecer cursos de niveles avanzados. 
-+ La duración de los cursos se concentra entre ***4 y 10 semanas***.
-+ Los suscriptores se interesan menos en los cursos de ***Música***, a pesar de tener una mayor oferta.
++Durante el 2020 se ***triplicaron las reseñas**.
++Las instituciones con mejores puntajes son **Universidades** y empresas como ***Google e IBM***.
++La ***Demanda*** valora más un curso de nivel ***Avanzado*** mientras que la ***Oferta*** de se concentra en el nivel ***Principiante**.
++Los temas que más ingresos generan son ***Computer Science y Web Development***.
++En niveles avanzados prefieren ***Business Finance  y Data Analysis***.
++Los cursos ***gratuitos*** son una buena opción para atraer suscriptores. 
 
 
 </div>
 
-## Puntos de mejora
-                                                                                                                                     
+## Puntos de mejora del Proyecto
+                                                                                                                                       
 Los puntos a mejorar  de este proyecto son :
                                                                                                                                      
 + Incliur información de datasets complementarios.
