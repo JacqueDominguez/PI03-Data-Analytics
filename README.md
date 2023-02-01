@@ -56,7 +56,7 @@ Algunos de los hallazgos más destacados fueron:
 + Analicé los valores únicos que asume cada variable. 
 + Transformé los tipos de datos de las columnas correspondientes. 
 + Apliqué la función split para extraer de las columnas tipo object los datos numéricos(duración y precio) 
-+ Los duplicados eran en Coursera: 934.764, en EDX: 1, en Udemy: 6, pueden afectar el análisis por lo que se eliminan.
++ Los duplicados son en Coursera: 934.764, en EDX: 1, en Udemy: 6, pueden afectar el análisis por lo que se eliminan.
 + Eliminé las columnas que no son significativas para el análisis. 
 + Generé 3 archivos que me servirán de base para realizar el dashboard. 
 
