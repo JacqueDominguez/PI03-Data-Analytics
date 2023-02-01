@@ -72,7 +72,7 @@ Se incluyeron los archivos generados en el punto 1 y la nube de palabras del pun
 
 ## CONCLUSIONES 
 
-Podras encontar el informe completo en este repositorio [Informe MOOCs](/Informe MOOCs.pdf).
+Podras encontar el informe completo en este repositorio con el nombre de Informe MOOCs.
                                                                                                                                      
 A modo de resumen y a partir del exhaustivo análisis de los datos y del dashboard interactivo podemos concluir:
 
