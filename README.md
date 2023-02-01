@@ -72,7 +72,9 @@ Se incluyeron los archivos generados en el punto 1 y la nube de palabras del pun
 
 ## CONCLUSIONES 
 
-A partir del exhaustivo análisis de los datos y observando con detenimiento el dashboard interactivo podemos concluir:
+Podras encontar el informe completo en este repositorio [Informe MOOCs](/Informe MOOCs.pdf).
+                                                                                                                                     
+A modo de resumen y a partir del exhaustivo análisis de los datos y del dashboard interactivo podemos concluir:
 
 + Durante el 2020 se ***triplicaron las reseñas***.
 + Las instituciones con mejores puntajes son **Universidades** y empresas como ***Google e IBM***.
