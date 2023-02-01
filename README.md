@@ -74,12 +74,12 @@ Se incluyeron los archivos generados en el punto 1 y la nube de palabras del pun
 
 A partir del exhaustivo análisis de los datos y observando con detenimiento el dashboard interactivo podemos concluir:
 
-+Durante el 2020 se ***triplicaron las reseñas**.
-+Las instituciones con mejores puntajes son **Universidades** y empresas como ***Google e IBM***.
-+La ***Demanda*** valora más un curso de nivel ***Avanzado*** mientras que la ***Oferta*** de se concentra en el nivel ***Principiante**.
-+Los temas que más ingresos generan son ***Computer Science y Web Development***.
-+En niveles avanzados prefieren ***Business Finance  y Data Analysis***.
-+Los cursos ***gratuitos*** son una buena opción para atraer suscriptores. 
++ Durante el 2020 se ***triplicaron las reseñas**.
++ Las instituciones con mejores puntajes son **Universidades** y empresas como ***Google e IBM***.
++ La ***Demanda*** valora más un curso de nivel ***Avanzado*** mientras que la ***Oferta*** de se concentra en el nivel ***Principiante**.
++ Los temas que más ingresos generan son ***Computer Science y Web Development***.
++ En niveles avanzados prefieren ***Business Finance  y Data Analysis***.
++ Los cursos ***gratuitos*** son una buena opción para atraer suscriptores. 
 
 
 </div>
